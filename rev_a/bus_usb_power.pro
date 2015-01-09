@@ -1,4 +1,4 @@
-update=Mon 11 Aug 2014 07:03:18 AM PDT
+update=Fri 09 Jan 2015 11:01:47 AM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,17 +29,9 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=../rev_a
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
-LibName1=bus_power
+LibName1=bus_usb_power
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -70,3 +62,15 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

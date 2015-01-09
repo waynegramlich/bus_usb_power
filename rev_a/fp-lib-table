@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name Bus_Power)(type KiCad)(uri ${KIPRJMOD}/bus_power.pretty)(options "")(descr "Bus Power Module (Rev. B)"))
+  (lib (name Bus_Usb_Power)(type KiCad)(uri ${KIPRJMOD}/bus_usb_power.pretty)(options "")(descr "Bus USB Power Module"))
 )
