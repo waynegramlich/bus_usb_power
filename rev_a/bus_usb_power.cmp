@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 09 Jan 2015 11:03:37 AM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 10 Jan 2015 10:51:47 AM PST
 
 BeginCmp
 TimeStamp = /53AA4798;
@@ -43,6 +43,13 @@ IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B17BB5;
+Reference = N1;
+ValeurCmp = AY-Y1008-2-R;
+IdModule  = Bus_Usb_Power:DUAL_USB_A;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E91E68;
 Reference = N2;
 ValeurCmp = BUS_MASTER_HEADER;
@@ -52,36 +59,43 @@ EndCmp
 BeginCmp
 TimeStamp = /53B7CA66;
 Reference = N3;
-ValeurCmp = OSTTC020162;
+ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B61F22;
 Reference = N4;
-ValeurCmp = OSTTC020162;
+ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B63175;
 Reference = N5;
-ValeurCmp = OSTTC020162;
+ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B64AE0;
 Reference = N6;
-ValeurCmp = OSTTC020162;
+ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B64AE6;
 Reference = N7;
-ValeurCmp = OSTTC020162;
+ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0B636;
+Reference = N8;
+ValeurCmp = AY-Y1008-2-R;
+IdModule  = Bus_Usb_Power:DUAL_USB_A;
 EndCmp
 
 BeginCmp
@@ -120,10 +134,59 @@ IdModule  = Bus_Usb_Power:MF_R300;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B0C35A;
+Reference = R4;
+ValeurCmp = 200;
+IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0C806;
+Reference = R5;
+ValeurCmp = 200;
+IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0CD3E;
+Reference = R6;
+ValeurCmp = 200;
+IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0CDA8;
+Reference = R7;
+ValeurCmp = 200;
+IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B6452D;
 Reference = SW1;
 ValeurCmp = F-426-0020;
 IdModule  = Bus_Usb_Power:GF_426_0020;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B02BC9;
+Reference = VR1;
+ValeurCmp = D24V25F6;
+IdModule  = Bus_Usb_Power:D24V25F6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B03369;
+Reference = VR2;
+ValeurCmp = OKI-78SR-5/1.5-W36-C;
+IdModule  = Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B17410;
+Reference = VR3;
+ValeurCmp = OKI-78SR-5/1.5-W36-C;
+IdModule  = Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR;
 EndCmp
 
 EndListe

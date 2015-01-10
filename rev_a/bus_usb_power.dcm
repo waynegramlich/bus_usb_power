@@ -8,6 +8,10 @@ $CMP BUS_SLAVE_HEADER
 D Bus connector that gets power from bus
 $ENDCMP
 #
+$CMP LPWR_JUMPER
+D Termination Jumper
+$ENDCMP
+#
 $CMP MOSFET_P
 F transistors/mos/*.*
 $ENDCMP
