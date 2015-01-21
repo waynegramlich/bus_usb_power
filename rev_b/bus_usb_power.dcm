@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUS_MASTER_HEADER
+D Bus connector that puts power on the bus
+$ENDCMP
+#
+$CMP BUS_SLAVE_HEADER
+D Bus connector that gets power from bus
+$ENDCMP
+#
+$CMP LPWR_JUMPER
+D Termination Jumper
+$ENDCMP
+#
+$CMP MOSFET_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP POWER_JUMPER
+D Power Jumper
+$ENDCMP
+#
+$CMP P_CHANNEL_MOSFET
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP R_HORIZ
+D Horizontal Resistor
+$ENDCMP
+#
+$CMP R_VERT
+D Vertical Resistor
+$ENDCMP
+#
+$CMP TERMINATE_JUMPER
+D Termination Jumper
+$ENDCMP
+#
+#End Doc Library
