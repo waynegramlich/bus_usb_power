@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Bus USB Power"
-Date "Tue 13 Jan 2015"
-Rev "A"
+Date "Tue 20 Jan 2015"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -48,12 +48,12 @@ $EndDescr
 $Comp
 L 3MM_HOLE H1
 U 1 1 53AA33AA
-P 4500 7300
-F 0 "H1" H 4450 7450 50  0000 C CNN
-F 1 "3MM_HOLE" H 4500 7150 50  0000 C CNN
-F 2 "Bus_Usb_Power:MountingHole_3mm" H 4500 7300 60  0001 C CNN
-F 3 "" H 4500 7300 60  0000 C CNN
-	1    4500 7300
+P 3200 7700
+F 0 "H1" H 3150 7850 50  0000 C CNN
+F 1 "3MM_HOLE" H 3200 7550 50  0000 C CNN
+F 2 "Bus_Usb_Power:MountingHole_3mm" H 3200 7700 60  0001 C CNN
+F 3 "" H 3200 7700 60  0000 C CNN
+	1    3200 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -225,34 +225,23 @@ LGND
 $Comp
 L 3MM_HOLE H2
 U 1 1 53E91440
-P 4500 7700
-F 0 "H2" H 4450 7850 50  0000 C CNN
-F 1 "3MM_HOLE" H 4500 7550 50  0000 C CNN
-F 2 "Bus_Usb_Power:MountingHole_3mm" H 4500 7700 60  0001 C CNN
-F 3 "" H 4500 7700 60  0000 C CNN
-	1    4500 7700
+P 3700 7700
+F 0 "H2" H 3650 7850 50  0000 C CNN
+F 1 "3MM_HOLE" H 3700 7550 50  0000 C CNN
+F 2 "Bus_Usb_Power:MountingHole_3mm" H 3700 7700 60  0001 C CNN
+F 3 "" H 3700 7700 60  0000 C CNN
+	1    3700 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 3MM_HOLE H3
 U 1 1 53E914C5
-P 5000 7300
-F 0 "H3" H 4950 7450 50  0000 C CNN
-F 1 "3MM_HOLE" H 5000 7150 50  0000 C CNN
-F 2 "Bus_Usb_Power:MountingHole_3mm" H 5000 7300 60  0001 C CNN
-F 3 "" H 5000 7300 60  0000 C CNN
-	1    5000 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3MM_HOLE H4
-U 1 1 53E91517
-P 5000 7700
-F 0 "H4" H 4950 7850 50  0000 C CNN
-F 1 "3MM_HOLE" H 5000 7550 50  0000 C CNN
-F 2 "Bus_Usb_Power:MountingHole_3mm" H 5000 7700 60  0001 C CNN
-F 3 "" H 5000 7700 60  0000 C CNN
-	1    5000 7700
+P 4200 7700
+F 0 "H3" H 4150 7850 50  0000 C CNN
+F 1 "3MM_HOLE" H 4200 7550 50  0000 C CNN
+F 2 "Bus_Usb_Power:MountingHole_3mm" H 4200 7700 60  0001 C CNN
+F 3 "" H 4200 7700 60  0000 C CNN
+	1    4200 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -420,8 +409,6 @@ Wire Wire Line
 	3100 3500 3100 4600
 Wire Wire Line
 	3100 1600 3100 2400
-Wire Wire Line
-	6200 2200 6200 5900
 Connection ~ 3900 2500
 Wire Wire Line
 	6200 2300 6300 2300
@@ -453,11 +440,7 @@ Wire Wire Line
 	7000 4300 7000 3700
 Connection ~ 7000 4300
 Wire Wire Line
-	6000 3300 6500 3300
-Wire Wire Line
-	9100 4900 7500 4900
-Wire Wire Line
-	6000 4900 6500 4900
+	7500 4900 9100 4900
 Wire Wire Line
 	9100 5200 9000 5200
 Wire Wire Line
@@ -478,7 +461,6 @@ Wire Wire Line
 Connection ~ 9000 5700
 Wire Wire Line
 	7000 5900 7000 5300
-Connection ~ 6200 2500
 Connection ~ 7000 5900
 Wire Wire Line
 	9100 3400 8200 3400
@@ -542,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 4850 4000 4850
 Wire Wire Line
-	4000 4850 4000 5000
+	4000 4850 4000 5200
 Wire Wire Line
 	5500 4300 4900 4300
 NoConn ~ 4900 4600
@@ -583,8 +565,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 2700 6000 2700
 Wire Wire Line
-	6000 2700 6000 4900
-Wire Wire Line
 	3100 5900 5700 5900
 Wire Wire Line
 	5700 5900 5700 2400
@@ -606,22 +586,19 @@ Wire Wire Line
 	6200 2200 6300 2200
 Connection ~ 6200 2300
 NoConn ~ 6300 2000
-Connection ~ 6000 4700
-Connection ~ 6000 3300
 Text Notes 7050 2200 0    50   ~ 0
-Note: When D24V25F6 is installed, install a jumper\nbetween pin 7 and pin 8 to short LGND and MGND\ntogether.  When D24V25F6 is not installed, jumper\nbetween pin 9 and 10 to route LPWR3 connector to SW1.
+Note: When D24V25F6 is installed, install a jumper\nbetween pin 5 and pin 7 to short LGND and MGND\ntogether.  When D24V25F6 is not installed, jumper\nbetween pin 9 and 10 to route LPWR3 connector to SW1.
 Text Label 5550 6600 0    50   ~ 0
 LPWR3
 Text Notes 4200 4200 0    50   ~ 0
 Power Switch
-Connection ~ 6200 4300
 $Comp
 L VOLTAGE_REGULATOR_123 VR3
 U 1 1 54B17410
 P 7000 5000
 F 0 "VR3" H 7000 5200 50  0000 C CNN
 F 1 "OKI-78SR-5/1.5-W36-C" H 7500 4850 50  0000 C CNN
-F 2 "Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR" H 7000 5000 60  0000 C CNN
+F 2 "Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR" H 7000 5000 60  0001 C CNN
 F 3 "" H 7000 5000 60  0000 C CNN
 	1    7000 5000
 	1    0    0    -1  
@@ -645,21 +622,51 @@ F 3 "" H 9600 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 5000 2800 5000
+	2800 5000 4000 5000
 Wire Wire Line
 	4900 4700 6000 4700
 Wire Wire Line
 	5900 2600 5900 6600
-Text Label 7600 3300 0    60   ~ 0
+Text Label 7600 3300 0    50   ~ 0
 USB1_5V
-Text Label 7600 4900 0    60   ~ 0
+Text Label 7600 4900 0    50   ~ 0
 USB2_5V
-NoConn ~ 4800 7300
-NoConn ~ 4800 7700
-NoConn ~ 4300 7300
-NoConn ~ 4300 7700
 Wire Wire Line
-	2800 7100 3900 7100
+	6200 7100 2800 7100
 Wire Wire Line
 	3900 7100 3900 6950
+$Comp
+L 3MM_HOLE H4
+U 1 1 53E91517
+P 4700 7700
+F 0 "H4" H 4650 7850 50  0000 C CNN
+F 1 "3MM_HOLE" H 4700 7550 50  0000 C CNN
+F 2 "Bus_Usb_Power:MountingHole_3mm" H 4700 7700 60  0001 C CNN
+F 3 "" H 4700 7700 60  0000 C CNN
+	1    4700 7700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 7700
+NoConn ~ 3500 7700
+NoConn ~ 4000 7700
+NoConn ~ 4500 7700
+Wire Wire Line
+	6200 4300 6200 7100
+Connection ~ 3900 7100
+Connection ~ 6200 5900
+Wire Wire Line
+	6000 4700 6000 2700
+Wire Wire Line
+	6200 2200 6200 2500
+Connection ~ 6200 2500
+Wire Wire Line
+	4000 5200 6100 5200
+Wire Wire Line
+	6100 5200 6100 3300
+Wire Wire Line
+	6100 4900 6500 4900
+Connection ~ 4000 5000
+Wire Wire Line
+	6100 3300 6500 3300
+Connection ~ 6100 4900
 $EndSCHEMATC
