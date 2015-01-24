@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 20 Jan 2015 09:11:22 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 24 Jan 2015 10:55:48 AM PST
 
 BeginCmp
 TimeStamp = /53AA4798;
@@ -36,128 +36,100 @@ IdModule  = Bus_Usb_Power:MountingHole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E8D609;
+TimeStamp = /54C3F9F9;
 Reference = J1;
+ValeurCmp = POWER_SELECT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E8D609;
+Reference = J2;
 ValeurCmp = TERMINATE_JUMPER;
 IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B17BB5;
+TimeStamp = /53B63175;
 Reference = N1;
-ValeurCmp = AY-Y1008-2-R;
-IdModule  = Bus_Usb_Power:DUAL_USB_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /53E91E68;
-Reference = N2;
-ValeurCmp = BUS_MASTER_HEADER;
-IdModule  = Bus_Usb_Power:Pin_Header_Straight_2x05_Shrouded;
-EndCmp
-
-BeginCmp
-TimeStamp = /53B7CA66;
-Reference = N3;
 ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B61F22;
-Reference = N4;
+Reference = N2;
 ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B63175;
+TimeStamp = /54C378AA;
+Reference = N3;
+ValeurCmp = USB_B;
+IdModule  = Bus_Usb_Power:USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0B636;
+Reference = N4;
+ValeurCmp = AY-Y1008-2-R;
+IdModule  = Bus_Usb_Power:DUAL_USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B7CA66;
 Reference = N5;
 ValeurCmp = 2POS_5MM_TERM_BLK;
 IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B64AE0;
+TimeStamp = /53E91E68;
 Reference = N6;
-ValeurCmp = 2POS_5MM_TERM_BLK;
-IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
+ValeurCmp = BUS_MASTER_HEADER;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_2x05_Shrouded;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B64AE6;
-Reference = N7;
-ValeurCmp = 2POS_5MM_TERM_BLK;
-IdModule  = Bus_Usb_Power:5MM_TERMINAL_BLOCK_2_POS;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B0B636;
-Reference = N8;
-ValeurCmp = AY-Y1008-2-R;
-IdModule  = Bus_Usb_Power:DUAL_USB_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /53B62FC0;
+TimeStamp = /53B6538A;
 Reference = Q1;
 ValeurCmp = FQP47P06;
 IdModule  = Bus_Usb_Power:TO-220_FET-GDS_Horizontal_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B6538A;
+TimeStamp = /53B62FC0;
 Reference = Q2;
 ValeurCmp = FQP47P06;
 IdModule  = Bus_Usb_Power:TO-220_FET-GDS_Horizontal_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E8E9A7;
-Reference = R1;
-ValeurCmp = 120 1%;
-IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
-EndCmp
-
-BeginCmp
 TimeStamp = /53B63849;
-Reference = R2;
-ValeurCmp = MF-R300;
-IdModule  = Bus_Usb_Power:MF_R300;
-EndCmp
-
-BeginCmp
-TimeStamp = /53B7AD27;
-Reference = R3;
+Reference = R1;
 ValeurCmp = MF-R300;
 IdModule  = Bus_Usb_Power:MF_R300;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B0C35A;
-Reference = R4;
+Reference = R2;
 ValeurCmp = 200;
 IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B0C806;
-Reference = R5;
+Reference = R3;
 ValeurCmp = 200;
 IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B0CD3E;
-Reference = R6;
-ValeurCmp = 200;
-IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B0CDA8;
-Reference = R7;
-ValeurCmp = 200;
+TimeStamp = /53E8E9A7;
+Reference = R4;
+ValeurCmp = 120 1%;
 IdModule  = Bus_Usb_Power:Resistor_Horizontal_400;
 EndCmp
 
@@ -169,24 +141,80 @@ IdModule  = Bus_Usb_Power:GF_426_0020;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B02BC9;
+TimeStamp = /54C407AC;
+Reference = TP1;
+ValeurCmp = TEST_POINT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C40103;
+Reference = TP2;
+ValeurCmp = TEST_POINT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C4044E;
+Reference = TP3;
+ValeurCmp = TEST_POINT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C40674;
+Reference = TP4;
+ValeurCmp = TEST_POINT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C408FC;
+Reference = TP5;
+ValeurCmp = TEST_POINT;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C31B6E;
 Reference = VR1;
-ValeurCmp = D24V25F6;
-IdModule  = Bus_Usb_Power:D24V25F6;
+ValeurCmp = S18V20F5;
+IdModule  = Bus_Usb_Power:S18V20Fx;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B03369;
+TimeStamp = /54C31B3D;
 Reference = VR2;
-ValeurCmp = OKI-78SR-5/1.5-W36-C;
-IdModule  = Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR;
+ValeurCmp = S7VxFx;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B17410;
+TimeStamp = /54C35F72;
 Reference = VR3;
-ValeurCmp = OKI-78SR-5/1.5-W36-C;
-IdModule  = Bus_Usb_Power:OKI_DC_TO_DC_CONNECTOR;
+ValeurCmp = S18V20ALV;
+IdModule  = Bus_Usb_Power:S18V20Fx;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C35F78;
+Reference = VR4;
+ValeurCmp = S7V8A;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C35BFF;
+Reference = VR5;
+ValeurCmp = S18V20F6;
+IdModule  = Bus_Usb_Power:S18V20Fx;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C35C45;
+Reference = VR6;
+ValeurCmp = S7V8A;
+IdModule  = Bus_Usb_Power:Pin_Header_Straight_1x04;
 EndCmp
 
 EndListe
