@@ -628,7 +628,7 @@ LPWR
 Wire Wire Line
 	9300 2500 9600 2500
 Text Label 9300 3900 0    50   ~ 0
-BPWR2
+BPWR3
 Text Notes 9300 5650 0    50   ~ 0
 Bus Termination
 Text Notes 1750 3850 0    50   ~ 0
